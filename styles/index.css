@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 :root{
-  --primary:#0D6EFD;
-  --light:#ffffff;
-  --gray:#efefef;
+  --azul:#2069F7;
+  --gris:#F6F6F2;
+  --negro:#121212;
   --danger: #DC3545;
 }
 
 *{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 0;
+  font-family: 'Ubuntu', sans-serif;  padding: 0;
   margin: 0;
+  background-color: var(--light);
 }
-
+.inicio{
+  background-color: var(--gris);
+}
 
 
 
@@ -23,12 +25,6 @@
   height: 150px;
 }
 
-.main-index{
-  background-image: url(/img/wave.svg);
-  background-position: top;
-  background-repeat: no-repeat;
-  
-}
 .img-main{
   width: 400px;
 }
