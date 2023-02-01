@@ -8,4 +8,4 @@ const closeSesion= ()=>{
 }
 const userLogin = JSON.parse(localStorage.getItem("userLog"))
 console.log(userLogin)
-document.getElementById("loginUser").innerText=`🚀${userLogin.nombre.toUpperCase()} ${userLogin.apellido.toUpperCase()}`
+document.getElementById("loginUser").innerText=`🚀${userLogin.nombre.toUpperCase()} ${userLogin.apellido.toUpperCase()}`;

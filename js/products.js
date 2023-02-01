@@ -90,7 +90,7 @@ let productos =[
 let card =document.getElementById("card-productos");
 productos.map((producto)=>{
   card.innerHTML+=`
-  <div class="card col-12 col-md-6 col-lg-4 bg-light" style="width: 18rem;">
+  <div class="card col-6 col-md-4 col-lg-3 bg-light" style="width: 18rem;">
   <img src="${producto.img}" class="card-img-top" alt="${producto.nombre}">
   <div class="card-body flex-column justify-content-between">
     <h5 class="card-title text-center">${producto.nombre}</h5>
