@@ -72,7 +72,6 @@ const userSignIn = () => {
           email: emailSignIn,
           password:passSignIn
       })
-      console.log(users)
       usersJson = JSON.stringify(users)
       window.localStorage.setItem("users",usersJson)
       window.location="../pages/login.html"
